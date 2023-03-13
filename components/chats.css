@@ -1,0 +1,50 @@
+.badge {
+	background-color: tomato;
+	width: 29px;
+	height: 29px;
+	border-radius: 14px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: 500;
+}
+
+.find .find__options {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	background-color: lightsteelblue;
+}
+
+.find__options .find__option {
+	padding-left: 30px;
+	padding-right: 5px;
+	color: gray;
+	font-weight: 500;
+}
+
+.find__option i {
+	margin-bottom: 15px;
+}
+
+.find__option span {
+	font-size: 12px;
+}
+
+.find__recommended header {
+	border-bottom: 1px solid gray;
+	padding: 10px 10px;
+	font-size: 12px;
+	color: gray;
+}
+
+.recommended__none {
+	padding: 24px 0;
+	text-align: center;
+	border-bottom: 1px solid #gray;
+	color: #gray;
+	font-size: 14px;
+}

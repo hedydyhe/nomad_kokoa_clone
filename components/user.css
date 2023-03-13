@@ -1,0 +1,30 @@
+.user {
+	justify-content: space-between;
+}
+
+.user,
+.user__column:first-child {
+	display: flex;
+	align-items: center;
+}
+
+.user__column:last-child {
+	margin-right: 10px;
+}
+.user__img {
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+	margin: 10px 20px 5px 25px;
+}
+
+.user__name {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.user__title {
+	margin-top: 7px;
+	font-size: 14px;
+	opacity: 0.6;
+}

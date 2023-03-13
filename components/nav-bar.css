@@ -1,0 +1,35 @@
+.nav {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #f7f7f7;
+	padding: 20px 50px;
+	box-sizing: border-box;
+	border-top: 1px solid lightgray;
+}
+
+.nav__ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav__a {
+	text-align: center;
+	color: #2e363e;
+	position: relative;
+}
+
+.nav__notification {
+	background-color: #2e363e;
+	width: 20px;
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	border-radius: 10px;
+	position: absolute;
+	left: 17px;
+	bottom: 17px;
+	font-size: 12px;
+}
